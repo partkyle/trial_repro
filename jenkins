@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker build -t trial_repro .
+
+docker run trial_repro
